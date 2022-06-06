@@ -75,7 +75,7 @@ public class GameMovie {
 				else {
 					System.out.println("잘못된 선택입니다.");
 					continue;}
-				
+				break;
 			
 			//나쵸 선택한 사용자만 통과 할 수 있게 중첩 if문 사용
 			} else if (input2 == 2) { 
@@ -87,7 +87,7 @@ public class GameMovie {
 				else {
 					System.out.println("잘못된 선택입니다.");
 					continue;}
-				
+				break;
 			
 			//핫도그 선택한 사용자만 통과 할 수 있게 중첩 if문 사용
 			} else if (input2 == 3) {
